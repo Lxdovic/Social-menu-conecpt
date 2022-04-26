@@ -230,7 +230,7 @@ let interactive_meshes = {
                                 .easing(TWEEN.Easing.Exponential.InOut)
                                 .start()
                                 .onUpdate(() => { scene.background = new THREE.Color(bg_color.r, bg_color.g, bg_color.b) })
-                                // .onComplete(() => { window.location.href = 'https://www.lxdovic.fr' })
+                                .onComplete(() => { window.location.href = 'https://www.linkedin.com/in/ludovic-debever-044033230/' })
                         })
                 },
     
